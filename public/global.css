@@ -1,8 +1,3 @@
-:root {
-	--panel-backdrop-filter: blur(15px) saturate(120%);
-	--panel-background-color: rgba(34, 34, 34, 0.253);
-	--wallpaper: url('../media/wallpapers/c3.jpg');
-}
 
 * {
 	margin: 0;
@@ -18,28 +13,4 @@ body {
 	color: white;
 	background-color: black;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
-
-
-.panel {
-	position: relative;
-	box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.063);
-
-}
-
-.panel::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-
-	width: 100%;
-	height: 100%;
-
-	backdrop-filter: var(--panel-backdrop-filter);
-	background-color: var(--panel-background-color);
-	z-index: -1;
-
 }
