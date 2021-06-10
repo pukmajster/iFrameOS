@@ -1,0 +1,5 @@
+:root {
+	--panel-backdrop-filter: blur(15px) saturate(120%);
+	--panel-background-color: rgba(34, 34, 34, 0.253);
+	--wallpaper: url('../media/wallpapers/c4.jpg');
+}
